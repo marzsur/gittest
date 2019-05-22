@@ -16,3 +16,27 @@ h3{
     color: green;
     text-align: right;
 }
+h4 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    transform: translate(-50%, -50%);
+    animation: magic 3s infinite;
+}
+@keyframes magic{
+    0%{
+        color: lightcoral;
+    }
+    50%{
+        font-size: 10px;
+        color: lightblue;
+    }
+    100%{
+        font-size: 80px;
+        color: lightpink;
+    }
+}
